@@ -66,5 +66,6 @@ class ArticuloController extends Controller
     public function destroy(Articulo $articulo)
     {
         //
+        $articulo -> delete();
     }
 }
